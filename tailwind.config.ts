@@ -18,7 +18,16 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'heading': ['Cormorant', 'serif'],
+				'body': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
+				'soft-pink': '#F8BBD9',
+				'peach': '#E8A87C',
+				'charcoal': '#2D2D2D',
+				'white': '#FFFFFF',
+				'light-pink': '#FFDEE2',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
